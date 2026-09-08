@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Happy Birthday🤗, Tithi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ambient canvas layers, sit behind everything -->
+<canvas id="confetti-canvas"></canvas>
+<div id="heart-layer" aria-hidden="true"></div>
+
+<!-- Right-side page navigation dots -->
+<nav class="page-dots" aria-label="Page navigation">
+  <button class="dot active" data-target="page-1" aria-label="Go to welcome page"></button>
+  <button class="dot" data-target="page-2" aria-label="Go to memories page"></button>
+  <button class="dot" data-target="page-3" aria-label="Go to wishes page"></button>
+  <button class="dot" data-target="page-4" aria-label="Go to secret page"></button>
+</nav>
+
+<main id="scroller">
+
+  <!-- ============ PAGE 1 — WELCOME ============ -->
+  <section id="page-1" class="page page--hero">
+    <div class="hero-inner">
+      <p class="eyebrow-free-label" id="hero-kicker">A little something for</p>
+      <h1 class="hero-name" id="hero-name">Devi Ji</h1>
+      <p class="hero-line" id="hero-subtitle">Another year of you — loved, celebrated, adored.🫶🏻</p>
+      <button class="ghost-btn" id="hero-heart-btn">Tap for a heart ♡💕</button>
+    </div>
+    <button class="scroll-cue" id="scroll-cue" aria-label="Scroll to next page">
+      <span></span>
+      <em>scroll</em>
+    </button>
+  </section>
+
+  <!-- ============ PAGE 2 — MEMORIES ============ -->
+  <section id="page-2" class="page page--memories">
+    <div class="page-head">
+      <h2>Moments worth keeping😊</h2>
+      <p>Every picture here is a little proof of how good your life looks😽.</p>
+    </div>
+    <div class="polaroid-grid" id="polaroid-grid">
+      <!-- Polaroids are generated from CONFIG.photos in script.js -->
+    </div>
+  </section>
+
+  <!-- ============ PAGE 3 — WISHES ============ -->
+  <section id="page-3" class="page page--wishes">
+    <div class="page-head page-head--light">
+      <h2>Wishes🤞🏻, waiting to be opened</h2>
+      <p>Press a button. Confetti is non-negotiable.</p>
+    </div>
+
+    <div class="wish-stage">
+      <div class="wish-card" id="wish-card">
+        <p id="wish-text">Choose a wish below💝🤞🏻 and it'll land right here🫴🏻.</p>
+      </div>
+      <div class="wish-buttons" id="wish-buttons">
+        <!-- Buttons generated from CONFIG.quotes in script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAGE 4 — SECRET MESSAGE ============ -->
+  <section id="page-4" class="page page--secret">
+    <div class="page-head">
+      <h2>One more thing🙈</h2>
+      <p>This part's just for you, Tithi...🫴🏻</p>
+    </div>
+
+    <div class="envelope-wrap">
+      <button class="envelope" id="envelope-btn" aria-expanded="false" aria-controls="secret-panel">
+        <svg viewBox="0 0 200 130" class="envelope-svg" aria-hidden="true">
+          <rect x="4" y="4" width="192" height="122" rx="10" class="env-body"/>
+          <path d="M4 14 L100 82 L196 14" class="env-flap"/>
+          <circle cx="100" cy="60" r="12" class="env-seal"/>
+        </svg>
+        <span class="envelope-label">tap to open</span>
+      </button>
+
+      <div class="secret-panel" id="secret-panel" hidden>
+        <p class="secret-message" id="secret-message"><!-- filled by script.js --></p>
+
+        <div class="secret-media">
+          <video id="secret-video" controls playsinline poster="D:\she\Screenshot 2026-09-03 124319.png">
+            <source id="secret-video-src" src="D:\she\c785bd1ddd1b433f817c9916c44b8243.mp4" type="video/mp4">
+            Your browser can't play this video.
+          </video>
+        </div>
+
+        <ul class="secret-links" id="secret-links">
+          <!-- Links generated from CONFIG.links in script.js -->
+        </ul>
+
+        <form class="reply-form" id="reply-form">
+          <label class="reply-label" for="reply-input">Want to write something back?😄 plss make ur move🫴🏻🫴🏻</label>
+          <textarea id="reply-input" rows="3" placeholder="Type anything or everything to send...🥰" required></textarea>
+          <div class="reply-row">
+            <button type="submit" class="ghost-btn ghost-btn--rose">Send message</button>
+            <p class="reply-status" id="reply-status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

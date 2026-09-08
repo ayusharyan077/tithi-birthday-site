@@ -1,0 +1,12 @@
+{
+  "name": "tithi-birthday-site",
+  "version": "1.0.0",
+  "description": "An interactive scroll birthday website for Tithi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
