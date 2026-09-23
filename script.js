@@ -9,7 +9,7 @@ const CONFIG = {
   name: "Tithi; aka Devi Ji🙏🏻",
 
   hero: {
-    kicker: "A little something for🎁",
+    kicker: "There's something for u cutu🫣🎁",
     subtitle: "Another year of you🫴🏻 — loved❤️, celebrated🎉, adored🥰.",
   },
 
@@ -28,7 +28,7 @@ const CONFIG = {
     { label: "Today", text: "Today the world🌍 got a little louder📢, a little brighter🔆, and a lot luckier🍀 — happy birthday, Tithi🎉🎁🎂." },
     { label: "Your laugh", text: "A wise man once said (me😎) a room isn't fully alive until you laugh😄 in it. They were right." },
     { label: "This year", text: "May this year hand you everything last year taught you to want🙂‍↕️." },
-    { label: "You, always", text: "Some people search for their favorite person their whole life. Nd i hope u will get someone for you." },
+    { label: "You, always", text: "Some people search for their favorite person their whole life nd somehow u r tht 1 for me nd for ur special ones.🤗" },
     { label: "One wish", text: "If I could give you one thing🫴🏻, it would be the ability to see yourself the way the people who love you do💖." },
   ],
 
@@ -43,20 +43,22 @@ const CONFIG = {
   // Buttons shown under the secret message. Point url at anything —
   // a Spotify playlist, a Google Photos album, a YouTube link, etc.
   links: [
-    { label: "a song dedicated to u🎶", url: "https://open.spotify.com/track/3gixnmepHSsyAuho34rprN" },
+    { label: "a song dedicated to u🎶", url: "https://www.youtube.com/watch?v=rC-kbRanJQ0&list=RDrC-kbRanJQ0&start_radio=1" },
   ],
 
   // Supports line breaks — just keep writing on new lines inside the
   // backticks.
   secretMessage: `Dear Tithi🌸,
 
-Happy Birthday, Devi Ji🛐! You’re kute🩷, gorjus nd stunig girl (ignore spellings🙂‍↕️) who also happens to have a single brain cell🧠. Hearing you say "kuch kehne wali thi pr bhul gyi" for the hundredth time is annoying but adorable. Thanks for blessing us with your pretty face and beautiful dumbness. Have a fabulous day, you lovable goddess! 🎂💖✨
+Happy Birthday, Devi Ji🛐! You’re cute🩷, gorjus nd stunig girl (ignore spellings🙂‍↕️) who also happens to have a single brain cell🧠. Hearing you say "kuch kehne wali thi pr bhul gyi" for the hundredth time is annoying but adorable. Thanks for blessing us with your pretty face and beautiful dumbness. Have a fabulous day, you lovable goddess! 🎂💖✨
 
 There are things I don't say enough, so I'm putting them here instead.
 You make ordinary days feel like something worth remembering.😌
 
-Happy birthday. I hope this year is as good to you as you are to
-everyone around you.💖💖💖`,
+Happy birthday Dear. I hope this year would be as beautiful as you are nd brings u a lot of happiness nd joy 🫰🏻💖
+Nd never forget to smile, kepp growing nd achieve everything u said to me...
+
+There is lot to say but i'm lack of words to describe you how special you are...`,
 
 };
 
