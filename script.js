@@ -20,6 +20,10 @@ const CONFIG = {
     { src: "Screenshot_20260901-103659_Instagram.jpg", caption: "Golden hour🕒, golden girl❣️" },
     { src: "vlcsnap-2026-09-03-12h29m32s829.png", caption: "Best trip yet🚗" },
     { src: "Screenshot_20260830-005202_Instagram.jpg", caption: "Just being you🤭" },
+     { src: "Screenshot 2026-09-03 124405.png", caption: "So Sweet😽"},
+     { src: "Screenshot 2026-09-03 124637.png", caption: "Adorable🫣"},
+     { src: "Screenshot_20260831-215650_Instagram.jpg", caption: "Diva😌" },
+     { src: "Screenshot_20260828-164109_Instagram.jpg", caption: "Can't take eyes off🫠" },
   ],
 
   // Each quote becomes a button on page 3. label = button text,
